@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8026C803246758BE0019552A /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8026C802246758BE0019552A /* PlaySoundsViewController.swift */; };
+		8034C87E247B1D5000ECFFF2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8034C87D247B1D5000ECFFF2 /* .gitignore */; };
+		80967A6A2468C1DB00C021EE /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80967A692468C1DB00C021EE /* PlaySoundsViewController+Audio.swift */; };
 		80B82FA62464B6DB00A1FA57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B82FA52464B6DB00A1FA57 /* AppDelegate.swift */; };
 		80B82FA82464B6DB00A1FA57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B82FA72464B6DB00A1FA57 /* SceneDelegate.swift */; };
-		80B82FAA2464B6DB00A1FA57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B82FA92464B6DB00A1FA57 /* ViewController.swift */; };
+		80B82FAA2464B6DB00A1FA57 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B82FA92464B6DB00A1FA57 /* RecordSoundsViewController.swift */; };
 		80B82FAD2464B6DB00A1FA57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B82FAB2464B6DB00A1FA57 /* Main.storyboard */; };
 		80B82FAF2464B6DC00A1FA57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B82FAE2464B6DC00A1FA57 /* Assets.xcassets */; };
 		80B82FB22464B6DC00A1FA57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B82FB02464B6DC00A1FA57 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8026C802246758BE0019552A /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		8034C87D247B1D5000ECFFF2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		80967A692468C1DB00C021EE /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		80B82FA22464B6DB00A1FA57 /* First app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B82FA52464B6DB00A1FA57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80B82FA72464B6DB00A1FA57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80B82FA92464B6DB00A1FA57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80B82FA92464B6DB00A1FA57 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		80B82FAC2464B6DB00A1FA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80B82FAE2464B6DC00A1FA57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B82FB12464B6DC00A1FA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +46,7 @@
 		80B82F992464B6DB00A1FA57 = {
 			isa = PBXGroup;
 			children = (
+				8034C87D247B1D5000ECFFF2 /* .gitignore */,
 				80B82FA42464B6DB00A1FA57 /* First app */,
 				80B82FA32464B6DB00A1FA57 /* Products */,
 			);
@@ -58,11 +65,13 @@
 			children = (
 				80B82FA52464B6DB00A1FA57 /* AppDelegate.swift */,
 				80B82FA72464B6DB00A1FA57 /* SceneDelegate.swift */,
-				80B82FA92464B6DB00A1FA57 /* ViewController.swift */,
+				80B82FA92464B6DB00A1FA57 /* RecordSoundsViewController.swift */,
 				80B82FAB2464B6DB00A1FA57 /* Main.storyboard */,
 				80B82FAE2464B6DC00A1FA57 /* Assets.xcassets */,
 				80B82FB02464B6DC00A1FA57 /* LaunchScreen.storyboard */,
 				80B82FB32464B6DC00A1FA57 /* Info.plist */,
+				8026C802246758BE0019552A /* PlaySoundsViewController.swift */,
+				80967A692468C1DB00C021EE /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = "First app";
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8034C87E247B1D5000ECFFF2 /* .gitignore in Resources */,
 				80B82FB22464B6DC00A1FA57 /* LaunchScreen.storyboard in Resources */,
 				80B82FAF2464B6DC00A1FA57 /* Assets.xcassets in Resources */,
 				80B82FAD2464B6DB00A1FA57 /* Main.storyboard in Resources */,
@@ -138,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80B82FAA2464B6DB00A1FA57 /* ViewController.swift in Sources */,
+				80967A6A2468C1DB00C021EE /* PlaySoundsViewController+Audio.swift in Sources */,
+				80B82FAA2464B6DB00A1FA57 /* RecordSoundsViewController.swift in Sources */,
 				80B82FA62464B6DB00A1FA57 /* AppDelegate.swift in Sources */,
+				8026C803246758BE0019552A /* PlaySoundsViewController.swift in Sources */,
 				80B82FA82464B6DB00A1FA57 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +297,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NPYSJXLYA3;
 				INFOPLIST_FILE = "First app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "test.First-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.First-app-sbajaj";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +315,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NPYSJXLYA3;
 				INFOPLIST_FILE = "First app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "test.First-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.First-app-sbajaj";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
